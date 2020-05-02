@@ -1,15 +1,15 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
 exports.bitcoin = {
-  messagePrefix: '\x18Bitcoin Signed Message:\n',
-  bech32: 'bc',
+  messagePrefix: '\x18DarkNet Signed Message:\n',
+  bech32: 'zpr',
   bip32: {
-    public: 0x0488b21e,
-    private: 0x0488ade4,
+    public: 0x04b24746,
+    private: 0x04b24308,
   },
-  pubKeyHash: 0x00,
-  scriptHash: 0x05,
-  wif: 0x80,
+  pubKeyHash: 0x8e,
+  scriptHash: 0x91,
+  wif: 0x50,
 };
 exports.regtest = {
   messagePrefix: '\x18Bitcoin Signed Message:\n',
